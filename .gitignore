@@ -1,0 +1,40 @@
+# ---- Python virtual environments ----
+venv/
+.venv/
+env/
+ENV/
+**/venv/
+**/.venv/
+**/env/
+
+# ---- Python cache / build ----
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# ---- Editor / IDE / OS junk ----
+.vscode/
+.idea/
+*.swp
+*~
+.DS_Store
+Thumbs.db
+desktop.ini
+tempCodeRunnerFile.py
+
+# ---- Large datasets (GitHub blocks files > 100 MB) ----
+lab3/MangoLeafBD Dataset/
+lab3/MangoLeafBD Dataset.zip
+*.zip
+*.rar
+*.7z
+*.tar.gz
+
+# ---- Secrets ----
+.env
+*.key
